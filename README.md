@@ -7,7 +7,7 @@ and https://github.com/jszheng/py3antlr4book
 
 basic setup instructions
 ```
-pip install antlr4-python3-runtime
+pip install antlr4-python3-runtime=4.7.2
 # goto https://www.antlr.org/download.html 
 # download the latest ver
 wget https://www.antlr.org/download/antlr-4.7.2-complete.jar
