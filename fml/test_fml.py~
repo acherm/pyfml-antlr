@@ -1,0 +1,16 @@
+import sys
+from antlr4 import *
+from FmlLexer import FmlLexer
+from FmlParser import FmlParser
+
+
+def main(argv):
+    input = FileStream(argv[1])
+    lexer = FmlLexer(input)
+    stream = CommonTokenStream(lexer)
+    parser = FmlParser(stream)
+    tree = parser.featuremodel()
+    print(tree.toStringTree(recog=parser))
+
+if __name__ == '__main__':
+    main(sys.argv)

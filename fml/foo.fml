@@ -1,0 +1,1 @@
+FM (a : b [c] d; c : (e|f); d : (H|JJ|KKKK)+; K : (Z|Y)?; Y : [OOOoooo12]; Z -> H; e & (JJ -> KKKK); )
